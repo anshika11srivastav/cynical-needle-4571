@@ -1,0 +1,197 @@
+#frstNav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(245, 89, 149);
+    color: white;
+}
+#para{
+    font-style: italic;
+}
+#image{
+    height: 20px;
+    width: 20px;
+    float: right;
+  }
+  button{
+    border: none;
+    float: right;
+    font-size: 15px;
+    color: brown;
+  }
+  #secondnav{
+    height: 50px;
+    width: 100%;
+    background-color: azure;
+   padding-top: 10px;
+   padding-right: 40px;
+   
+ }
+ #thirdnav{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-top: 10px;
+ }
+ #thirdnav>div{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ }
+ #search{
+    margin: auto;
+ }
+ #image2{
+    height: 50px;
+    padding-right: 30px;
+ }
+ #input{
+    height:40px;
+    width: 200px;
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  #options{
+    display: flex;
+  }
+
+  /* testing only */
+
+  .topnav {
+    overflow: hidden;
+    
+    line-height: 40px;
+  }
+   
+  .topnav a {
+    float: left;
+    display: block;
+    width:120px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color:black;
+  }
+   
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+   
+  .topnav a.active {
+   
+    color:black;
+  }
+  #img{
+    height:100px;
+    width: 90%;
+    padding-left: 80px;
+}
+
+ #dress{
+    height:700px;
+    width: auto;
+
+ }
+ .shop{
+   display: flex;
+   justify-content: space-around;
+ }
+ #middle{
+    height: 600px;
+    width:90%;
+    padding-left: 100px;
+    padding-top: 30px;
+ }
+
+ #dress2{
+    height:500px;
+    width: auto;
+
+ }
+ .shop2{
+   display: flex;
+   justify-content: space-around;
+   padding-left: 50px;
+   padding-top: 30px;
+ }
+ #fourth{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+ }
+
+ /* footer part */
+ footer {
+  width: 100%;
+ 
+  bottom: 0;
+  background: wheat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color:rgb(254, 0, 187);
+  padding: 20px;
+}
+.text {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 40px auto;
+}
+footer input[type='email']{
+  width: calc(100vw - 40vw);
+  font-size: 25px;
+  padding: 10px;
+  border-radius: 30px 0 0 30px;
+  outline: none;
+  border: none;
+  color: var(--mycolor);
+}
+footer input[type='submit']{
+  border: none;
+  outline: none;
+  border-radius: 0 30px 30px 0;
+  padding: 10px;
+  color: rgb(254, 0, 187);
+  background: var(--mycolor);
+  font-size: 25px;
+  cursor: pointer;
+}
+footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
+.list-footer {
+  margin: 40px auto;
+  display: flex;
+  list-style-type: none;
+}
+.list-footer li a {
+  text-decoration: none;
+  color:rgb(254, 0, 187);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+}
+.list-footer li a:hover{color: var(--mycolor);}
+
+.social-media {
+  margin: 20px auto;
+}
+.social-media i {
+  padding: 20px;
+  font-size: 25px;
+  color:rgb(254, 0, 187);
+}
+.social-media i:hover{
+  color: rgb(2,255,171);
+}
+#image5{
+  height: 40px;
+  width:40px
+}
