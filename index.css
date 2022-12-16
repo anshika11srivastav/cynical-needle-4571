@@ -5,6 +5,8 @@
     justify-content: space-around;
     background-color: rgb(245, 89, 149);
     color: white;
+    position: sticky;
+    top: 0;
 }
 #para{
     font-style: italic;
@@ -26,7 +28,8 @@
     background-color: azure;
    padding-top: 10px;
    padding-right: 40px;
-   
+   position: sticky;
+   top: 0;
  }
  a{
   color: brown;
@@ -37,6 +40,7 @@
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     padding-top: 10px;
+    
  }
  #thirdnav>div{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -66,7 +70,7 @@
 
   .topnav {
     overflow: hidden;
-    
+    position: sticky;
     line-height: 40px;
   }
    
