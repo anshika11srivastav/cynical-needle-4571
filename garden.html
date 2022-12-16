@@ -8,13 +8,313 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <style>
-  #hello{
-    height: 100px;
+  #frstNav{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(245, 89, 149);
+    color: white;
+    position: sticky;
+    top: 0;
+}
+#para{
+    font-style: italic;
+}
+#image{
+    height: 20px;
+    width: 20px;
+    float: right;
   }
+  button{
+    border: none;
+    float: right;
+    font-size: 15px;
+    color: brown;
+  }
+  #secondnav{
+    height: 50px;
+    width: 100%;
+    background-color: azure;
+   padding-top: 10px;
+   padding-right: 40px;
+   position: sticky;
+   top: 0;
+ }
+ a{
+  color: brown;
+ }
+ #thirdnav{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-top: 10px;
+    
+ }
+ #thirdnav>div{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ }
+ #search{
+    margin: auto;
+ }
+ #image2{
+    height: 50px;
+    padding-right: 30px;
+ }
+ #input{
+    height:40px;
+    width: 200px;
+ }
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  #options{
+    display: flex;
+  }
+
+  /* testing only */
+
+  .topnav {
+    overflow: hidden;
+    position: sticky;
+    line-height: 40px;
+  }
+   
+  .topnav a {
+    float: left;
+    display: block;
+    width:120px;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    color:black;
+  }
+   
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+   
+  .topnav a.active {
+   
+    color:black;
+  }
+  /* before nav */
+  #hello{
+    height: 200px;
+    margin: auto;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #main{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding-top: 20px;
+  }
+  #img{
+    height: 450px;
+  }
+  /* footer part */
+  footer {
+   width: 100%;
+  
+   bottom: 0;
+   background: wheat;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+   color:rgb(254, 0, 187);
+   padding: 20px;
+   padding-right: 40px;
+ }
+ .text {
+   font-size: 28px;
+   font-weight: bold;
+   margin: 40px auto;
+ }
+ footer input[type='email']{
+   width: calc(100vw - 40vw);
+   font-size: 25px;
+   padding: 10px;
+   border-radius: 30px 0 0 30px;
+   outline: none;
+   border: none;
+   color: var(--mycolor);
+ }
+ footer input[type='submit']{
+   border: none;
+   outline: none;
+   border-radius: 0 30px 30px 0;
+   padding: 10px;
+   color: rgb(254, 0, 187);
+   background: var(--mycolor);
+   font-size: 25px;
+   cursor: pointer;
+ }
+ footer input:hover[type='submit'] {background: rgb(219, 3, 154);}
+ .list-footer {
+   margin: 40px auto;
+   display: flex;
+   list-style-type: none;
+ }
+ .list-footer li a {
+   text-decoration: none;
+   color:rgb(254, 0, 187);
+   font-size: 20px;
+   font-weight: bold;
+   padding: 20px;
+ }
+ .list-footer li a:hover{color: var(--mycolor);}
+ 
+ .social-media {
+   margin: 20px auto;
+ }
+ .social-media i {
+   padding: 20px;
+   font-size: 25px;
+   color:rgb(254, 0, 187);
+ }
+ .social-media i:hover{
+   color: rgb(2,255,171);
+ }
+ #image5{
+   height: 40px;
+   width:40px
+ }
+ #foot{
+   padding-right: 40px;
+ }
 </style>
 <body>
+  <div id="frstNav">
+    <P><b><</b></P>
+    <p id="para">celebrate more. sparkle with joy. reflect often. </p>
+   <h4>NEW YEAR'S RESOLUTIONS</h4>
+    <p id="para">shop the new collection</p>
+    <p><b>></b></p>
+</div>
+<div>
+    <div id="secondnav">
     <div>
-     <img id="hello" src="https://images.ctfassets.net/5de70he6op10/1D4rEI4jwM4aNGoKxPacjm/60d585ede668c1b1b6b2320ab3a496e5/081321_AnthroL1Banner_2_large.jpg?w=2882&q=80&fm=webp">>
+        <img id="image" src="https://tse4.mm.bing.net/th?id=OIP._ZnSabj8Y8zKyfIUpar2UAHaHa&pid=Api&P=0">   
+        <button type="button" id="language">English($)</button>
     </div>
+    <div><a href="LOGIN.html"></a>
+        <img id="image"  src="https://cdn-icons-png.flaticon.com/512/511/511506.png" >
+    <button id="signUpBtn"><a href="LOGIN.html">Sign up</a></button>
+    <button><a href="LOGIN.html">LOGIN </a></button>
+    </div>
+    </div>
+</div>
+<div id="thirdnav">
+    <div><img src="https://images.ctfassets.net/5de70he6op10/7q3Z6vJ6UEPFyAPKAFZZxl/1a22eec777828277571187c43306e983/Anthropologie_Holiday_Lockup__1_update.svg"></div>
+
+    <div><img src="https://images.ctfassets.net/5de70he6op10/y1O9tEDOvCGliGUvT9RoJ/eb8ab4734c5e3778b8b61da70ed441ac/AL_NewLogo_2.svg"></div>
+    <div id="search">
+        <input id="input" type="text"
+        placeholder=" Search Anthropologie"
+        name="search" >
+        <img id="image" src="https://tse3.mm.bing.net/th?id=OIP.Y2z1x2dnQSl-oOXIaBu80QHaH8&pid=Api&P=0">
+    </div>
+    <div>
+        <img id="image2" src="http://icons.iconarchive.com/icons/iconsmind/outline/256/Add-Bag-icon.png">
+    </div>
+</div>
+
+
+
+<!-- testing only -->
+
+<div class="topnav">
+    <a class="active" href="gifts.html">Gifts</a>
+    <a href="#about">New!</a>
+    <a href="#about">Dresses</a>
+    <a href="#about">Clothing</a>
+    <a href="#about">Shoes</a>
+    <a href="#contact">Accessories</a>
+    <a href="#about">BHLDNWeddings</a>
+    <a href="#about">Home&Furnitures</a>
+    <a href="#about">Beauty&Wellness</a>
+    
+</div>
+  <!-- main div -->
+    <div>
+      <div>
+        <img id="hello" src="https://images.ctfassets.net/5de70he6op10/1D4rEI4jwM4aNGoKxPacjm/60d585ede668c1b1b6b2320ab3a496e5/081321_AnthroL1Banner_2_large.jpg?w=2882&q=80&fm=webp">>
+       </div>
+       <h1>Garden & Outdoor Products</h1>
+       <!-- second main div -->
+       <div id="main">
+        <div><img id="img" src="https://images.urbndata.com/is/image/Anthropologie/50580927_081_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349"><p>Angled Obelisk Chiminea</p><p>$398.00 – $528.00</p><p>Color: DARK ORANGE</p></div>
+        <div><img id="img" src="https://images.urbndata.com/is/image/Anthropologie/63565246_000_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349"><p>Sunset Check Merino Wool Throw</p><p>$152.00</p><p>Color: ASSORTED</p></div>
+        <div><img id="img" src="https://images.urbndata.com/is/image/Anthropologie/42867333_000_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349"><p>Faux Cedar Garland</p><p>$98.00</p><p>Color: ASSORTED
+
+        </p></div>
+        <div><img id="img" src="https://images.urbndata.com/is/image/Anthropologie/76129352_070_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349"><p>Stargazer Berrydrop String Lights</p><p>$54.60
+          Limited Time</p><p>Color: GOLD</p></div>
+       </div>
+       <!-- third main div -->
+       <div id="main">
+        <div><img id="img" src="https://images.urbndata.com/is/image/Anthropologie/76129154_065_b3?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349">
+          <p>Stargazer Northstar Twine Lights</p>
+          <p>$54.60 Limited Time</p>
+          <p>Color: ROSE</p>
+        </div>
+        <div><img id="img" src="https://images.urbndata.com/is/image/Anthropologie/68829936_004_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349">
+        <p>Stargazer Illuminated LED Vine Cone</p>
+        <p>$40.60 – $89.6
+          Limited Time</p>
+          <p>Color: GREY</p>
+        </div>
+        <div><img id="img" src="https://images.urbndata.com/is/image/Anthropologie/68829753_004_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349">
+        <p>Stargazer Illuminated LED Vine Sphere</p><p>$47.60
+          Limited Time</p><p>Color: GREY</p></div>
+        <div><img id="img" src="https://images.urbndata.com/is/image/Anthropologie/25899386_000_b2?$an-category$&fit=constrain&fmt=webp&hei=523&qlt=80&wid=349">
+        <p>Madison James Flyaway Sticks, Pack of 40</p>
+        <p>$42.00</p>
+        <p>Color: ASSORTED
+        </p></div>
+       </div>
+    </div>
+    <!-- footer part -->
+    <footer id="foot">
+      <p class="text">Sign up to recieve special offers and updates</p>
+      <form>
+          <input type="email" required>
+          <input type="submit"  value="Sign Up"><a href="login.html"></a>
+      </form>
+      <ul class="list-footer">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Delivery</a></li>
+          <li><a href="#">Jobs</a></li>
+          <li><a href="https://www.anthropologie.com/help/contact-us">Contact</a></li>
+          <li><a href="#">Help</a></li>
+      </ul>
+      <div class="social-media">
+          <a href="https://www.instagram.com/anthropologie/"><i class="fab fa-instagram"></i><img id="image5" src="https://tse4.mm.bing.net/th?id=OIP.qjgbHCmGGOBTUJmIhvUHEgHaHa&pid=Api&P=0"></a>
+          <a href="https://twitter.com/anthropologie"><i class="fab fa-twitter"></i><img id="image5" src="http://1000logos.net/wp-content/uploads/2017/06/Twitter-symbol.jpg"></a>
+          <a href="https://www.pinterest.com/anthropologie/"><i class="fab fa-linkedin"></i><img id="image5" src="https://image.freepik.com/free-icon/pinterest-logo-circle_318-40721.jpg"></a>
+          <a href="https://www.facebook.com/Anthropologie"><i class="fab fa-facebook"></i><img id="image5" src="https://tse1.mm.bing.net/th?id=OIP.qAvEb6dwa1l715giSS_qBAHaHa&pid=Api&P=0"></a>
+          <a href="https://apps.apple.com/us/app/anthropologie/id922496703"><i class="fab fa-youtube"></i><img id="image5" src="https://tse4.mm.bing.net/th?id=OIP.nclAZrMsoWcpDYZJtx5YUAHaI5&pid=Api&P=0"></a>
+      </div>
+      <p class="copyrights">&copy; 2020 DeltatyCode</p>
+  </footer>
+  <div>
+      <img id="img" src="https://images.ctfassets.net/5de70he6op10/1k3lZuMcopQdkMdEiQDoq4/300b91824e994351fdb7e7714b6db798/Holiday22_SiteFooter_GiftGuide_LS.jpg">
+  </div>
+  </div>
+  
+</div>
+
 </body>
 </html>
